@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    margin: 1%;
+    position: relative;
+    padding: 70px 10px;
+    
+
+}
+.IES{
+    position: absolute;
+    font-size: 50px;
+    left: 20px;
+    top: 5px;
+}
+
+.título{
+    
+    top: 5px;
+    right: 540px;
+}
+
+nav{
+    
+    right: 555px;
+    top: 50px;
+}
+
+.minic{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 125px;
+    background-color: blue;
+    background-color: rgb(26, 23, 36);  
+    border: 4px solid rgb(17, 15, 24);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.minic:hover{
+    border-color: aqua;
+}
+
+.minic1{
+    width: 150px;
+    position: absolute;
+    right: 10px;
+    top: 62px;
+    background-color: rgb(26, 23, 36);  
+    border: 4px solid rgb(17, 15, 24);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.minic1:hover{
+    border-color: aqua;
+}
+
+.minic2{
+    width: 85px;
+    position: absolute;
+    top: 94px;
+    right: 10px;
+    background-color: rgb(26, 23, 36);  
+    border: 4px solid rgb(17, 15, 24);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.minic2 :hover{
+    border-color: aqua;
+}
+
+nav li{
+    text-decoration: none;
+}
+
+.cA{
+    position: absolute;
+    top: 30px;
+    right: 554px;
+}
+
+h1{
+    letter-spacing: 2px;
+    color:rgb(0, 0, 255);
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.card-1{
+    color: rgb(138, 43, 226);
+    border: 5px solid rgb(21, 21, 26);
+    height: 45px;
+    width: 115px;
+    background-color: rgb(10, 9, 14);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.card0{
+    max-width: 1280px;
+    border: 5px solid rgb(21, 21, 26);
+    background-color: rgb(10, 9, 14);
+    padding-left: 5px;
+    font-optical-sizing: 38px;
+    padding: 7px;
+}
+
+.card{
+    max-width: 500px;
+    font-optical-sizing: 38px;
+    padding: 5px;
+    padding-left: 30px;
+    background-color: rgb(26, 23, 36);  
+    border: 5px solid rgb(17, 15, 24);
+    border-radius: 30px;
+}
+
+.card1{
+    color: rgb(138, 43, 226);
+    border: 5px solid rgb(21, 21, 26);
+    height: 45px;
+    width: 130px;
+    background-color: rgb(10, 9, 14);
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.estilos1{
+    color: mediumblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.estilos2{
+    color: midnightblue;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.estilos3{
+    color: rgb(0, 0, 205);
+    text-align: center;
+    list-style: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration:none
+}
+
+.estilos3 :hover{
+    color: aqua;
+}
+
+.estilos4{
+    color: midnightblue;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body{
+    background-color: black
+}
+
+p{
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color:aqua;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration:underline;
+}
+
+.card2{
+    max-width: 1280px;
+    padding-left: 5px;
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    font-optical-sizing: 38px;
+    padding: 7px;
+}
+
+.card3{
+    max-width: 1280px;
+    padding-left: 5px;
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    font-optical-sizing: 38px;
+    padding: 7px;
+}
+
+.card4{
+    width: 310px;
+    height: 280px;
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    text-align: center;
+    color:aqua;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card4 img{
+    width: 300px;
+    height:200px;
+    border: 6px solid navy;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+
+
+.minicard1{
+    color: rgb(0, 0, 205);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.ContL{
+    
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.Pad{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    margin-top: 15px;
+    background-color: rgb(10, 9, 14);
+    border: 5px solid rgb(21, 21, 26);
+    font-optical-sizing: 38px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    max-width: 1366px;
+}
+
+section{
+    margin: 10px;
+}
+
+@media screen and (max-width:400px) {
+.ul{
+        font-size: 8px;
+    }
+}   
+
+@media screen and (max-width:870px) {
+.cA{
+        position: absolute;
+        top: 30px;
+        right: 300px;
+    }
+}
+
+@media screen and (max-width:610px) {
+.cA{
+        position: absolute;
+        top: 30px;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width:510px) {
+.cA{
+        position: absolute;
+        top: 30px;
+        right: 115px;
+    }
+
+.IES{
+        font-size: 30px;
+        top: 25px;
+}
+
+.cA{
+    font-size: 20px;
+}
+
+nav{
+    font-size: 10px;
+}
+
+.minic{
+    width: 80px;
+}
+
+.minic1{
+    width: 100px
+}
+
+.minic2{
+    width: 80px;
+}
+}
+
+@media screen and (max-width:335px) {
+    .cA{
+            position: absolute;
+            top: 30px;
+            right: 115px;
+        }
+    
+    .IES{
+            font-size: 25px;
+            top: 40px;
+    }
+    
+    .cA{
+        font-size: 15px;
+    }
+    
+    nav{
+        font-size: 10px;
+    }
+    
+    .minic{
+        width: 80px;
+    }
+    
+    .minic1{
+        width: 100px
+    }
+    
+    .minic2{
+        width: 80px;
+    }
+    }
+
+
+    
